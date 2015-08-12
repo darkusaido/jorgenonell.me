@@ -1,0 +1,17 @@
+x.top5 { margin-top:5px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top20 { margin-top:20px; }
+.top25 { margin-top:25px; }
+.top30 { margin-top:30px; }
+.top60 { margin-top:60px; }
+.top120 { margin-top:120px; }
+.top240 { margin-top:240px; }
+
+.navbar{
+	margin-bottom: 0;
+}
+
+.jumbotron{
+	padding-top: 0;
+}
