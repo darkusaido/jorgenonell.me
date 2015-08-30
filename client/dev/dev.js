@@ -1,7 +1,8 @@
 $(document).ready(function(){
+
 	var localHour = parseInt((moment(moment.utc().toDate()).format('HH')), 10);
 	var source = '';
-	console.log(localHour)
+
 	if(localHour < 6 || localHour > 19){
 		source = 'img/night.jpg';
 	}
@@ -11,5 +12,7 @@ $(document).ready(function(){
 	else {
 		source = 'img/day.jpg';
 	}
-	$('#main_img').attr("src",source);
+	var mainImg = $('#main_img');
+	//mainImg. 
+	mainImg.attr("src",source);
 });

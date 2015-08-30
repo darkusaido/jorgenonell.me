@@ -12,6 +12,18 @@ x.top5 { margin-top:5px; }
 	margin-bottom: 0;
 }
 
-.jumbotron{
-	padding-top: 0;
+#contact{
+	background-color: #999;
+}
+
+.email-link{
+	margin-bottom: 10px;
+}
+.footer-section{    
+    padding-bottom: 40px;
+    border-top: 1px solid #e5e5e5;
+}
+.footer-button{
+	margin-right: : 30px;
+	display: inline;
 }
